@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seni Budaya Kelas 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seni Kelas 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Seni Budaya Kelas 3</h1>
-  </header>
+    <header>
+        <h1>Seni Kelas 3</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Sebutkan tiga bentuk garis dalam seni rupa!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Sebutkan 3 contoh alat musik tradisional Indonesia!</label>
+            <input type="text" id="soal1">
+            <button data-answer="Gamelan, Angklung, Suling">Cek Jawaban</button>
+        </div>
 
-    <p>2. Apa yang dimaksud dengan warna sekunder?</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Apa itu seni musik?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Seni yang menghasilkan suara untuk menyampaikan perasaan">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Apa saja yang termasuk dalam seni rupa?</label>
+            <input type="text" id="soal3">
+            <button data-answer="Lukisan, Patung, Gambar">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="seni.html">Kembali ke Seni Budaya</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
