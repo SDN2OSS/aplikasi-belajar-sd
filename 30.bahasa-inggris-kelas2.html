@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bahasa Inggris Kelas 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahasa Inggris Kelas 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bahasa Inggris Kelas 2</h1>
-  </header>
+    <header>
+        <h1>Bahasa Inggris Kelas 2</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Apa bahasa Inggris dari "Anjing"?</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Apa bahasa Inggrisnya "Sekolah"?</label>
+            <input type="text" id="soal1">
+            <button data-answer="School">Cek Jawaban</button>
+        </div>
 
-    <p>2. Sebutkan 3 benda di sekitar kamu dalam bahasa Inggris!</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Apa bahasa Inggrisnya "Makan"?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Eat">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Sebutkan 3 hewan dalam bahasa Inggris!</label>
+            <input type="text" id="soal3">
+            <button data-answer="Cat, Dog, Elephant">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="bahasa-inggris.html">Kembali ke Bahasa Inggris</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
