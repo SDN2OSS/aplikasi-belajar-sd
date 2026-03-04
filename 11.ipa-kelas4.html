@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IPA Kelas 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA Kelas 4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>IPA Kelas 4</h1>
-  </header>
+    <header>
+        <h1>IPA Kelas 4</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Sebutkan tiga jenis energi!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Apa yang dimaksud dengan daur air?</label>
+            <input type="text" id="soal1">
+            <button data-answer="Proses perputaran air di bumi">Cek Jawaban</button>
+        </div>
 
-    <p>2. Apa fungsi akar pada tumbuhan?</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Apa itu ekosistem?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Sistem kehidupan yang terdiri dari makhluk hidup dan lingkungan">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Apa yang dimaksud dengan fotosintesis?</label>
+            <input type="text" id="soal3">
+            <button data-answer="Proses tumbuhan menghasilkan makanan dengan bantuan cahaya matahari">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="ipa.html">Kembali ke IPA</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
