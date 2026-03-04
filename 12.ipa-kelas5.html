@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IPA Kelas 5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA Kelas 5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>IPA Kelas 5</h1>
-  </header>
+    <header>
+        <h1>IPA Kelas 5</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Jelaskan perbedaan hewan ovipar dan vivipar!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Apa yang dimaksud dengan sumber energi terbarukan?</label>
+            <input type="text" id="soal1">
+            <button data-answer="Energi yang dapat diperbarui secara alami, seperti energi matahari dan air">Cek Jawaban</button>
+        </div>
 
-    <p>2. Sebutkan alat peredaran darah pada manusia!</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Bagaimana cara bumi mendapatkan cahaya dan panas?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Melalui sinar matahari">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Apa yang dimaksud dengan tumbuhan berbiji?</label>
+            <input type="text" id="soal3">
+            <button data-answer="Tumbuhan yang berkembang biak dengan biji">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="ipa.html">Kembali ke IPA</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
