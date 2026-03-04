@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bahasa Indonesia Kelas 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahasa Indonesia Kelas 4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bahasa Indonesia Kelas 4</h1>
-  </header>
+    <header>
+        <h1>Bahasa Indonesia Kelas 4</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Buatlah lima kalimat menggunakan kata sifat!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Apa itu kata benda abstrak?</label>
+            <input type="text" id="soal1">
+            <button data-answer="Kata benda yang tidak dapat dilihat atau diraba, seperti cinta, kebahagiaan">Cek Jawaban</button>
+        </div>
 
-    <p>2. Sebutkan contoh kata depan!</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Apa yang dimaksud dengan kalimat imperatif?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Kalimat yang memberi perintah atau ajakan">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Sebutkan 3 contoh kalimat deklaratif!</label>
+            <input type="text" id="soal3">
+            <button data-answer="Saya suka bermain, Dia pergi ke sekolah, Kami belajar bersama">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="bahasa-indonesia.html">Kembali ke Bahasa Indonesia</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
