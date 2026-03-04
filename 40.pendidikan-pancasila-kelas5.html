@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pendidikan Pancasila Kelas 5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan Pancasila Kelas 5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Pendidikan Pancasila Kelas 5</h1>
-  </header>
+    <header>
+        <h1>Pendidikan Pancasila Kelas 5</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Jelaskan pengertian sila ke-5 dalam Pancasila!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Apa yang dimaksud dengan sila kelima Pancasila?</label>
+            <input type="text" id="soal1">
+            <button data-answer="Keadilan sosial bagi seluruh rakyat Indonesia">Cek Jawaban</button>
+        </div>
 
-    <p>2. Apa hubungan antara Pancasila dengan kehidupan berbangsa dan bernegara?</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Sebutkan contoh penerapan sila kedua dalam kehidupan sehari-hari!</label>
+            <input type="text" id="soal2">
+            <button data-answer="Menolong sesama manusia tanpa memandang suku, agama, atau ras">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Apa makna pentingnya sila ketiga dalam menjaga persatuan bangsa?</label>
+            <input type="text" id="soal3">
+            <button data-answer="Mewujudkan persatuan dan kesatuan bangsa Indonesia">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="pendidikan-pancasila.html">Kembali ke Pendidikan Pancasila</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
