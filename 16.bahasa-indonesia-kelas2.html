@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bahasa Indonesia Kelas 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahasa Indonesia Kelas 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bahasa Indonesia Kelas 2</h1>
-  </header>
+    <header>
+        <h1>Bahasa Indonesia Kelas 2</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Buatlah kalimat dari kata: “sekolah, teman, belajar”!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Sebutkan 3 jenis kata benda!</label>
+            <input type="text" id="soal1">
+            <button data-answer="buku, meja, pensil">Cek Jawaban</button>
+        </div>
 
-    <p>2. Sebutkan tiga kata benda!</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Apa antonim dari kata "besar"?</label>
+            <input type="text" id="soal2">
+            <button data-answer="kecil">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Apa sinonim dari kata "cepat"?</label>
+            <input type="text" id="soal3">
+            <button data-answer="lincah">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="bahasa-indonesia.html">Kembali ke Bahasa Indonesia</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
