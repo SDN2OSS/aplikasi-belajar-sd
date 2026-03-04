@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Budi Pekerti Kelas 6</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budi Pekerti Kelas 6</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Budi Pekerti Kelas 6</h1>
-  </header>
+    <header>
+        <h1>Budi Pekerti Kelas 6</h1>
+        <p>Kerjakan soal berikut:</p>
+    </header>
 
-  <div class="materi">
-    <h2>Soal Latihan</h2>
-    <p>1. Jelaskan pentingnya sikap jujur dalam kehidupan sosial!</p>
-    <input type="text" id="answer1" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
+    <main>
+        <div class="soal">
+            <label for="soal1">1. Sebutkan contoh perilaku jujur di sekolah!</label>
+            <input type="text" id="soal1">
+            <button data-answer="Tidak menyontek saat ujian dan berkata jujur">Cek Jawaban</button>
+        </div>
 
-    <p>2. Apa arti pentingnya menghormati guru di sekolah?</p>
-    <input type="text" id="answer2" placeholder="Jawaban Anda">
-    <button>cek jawaban</button>
-  </div>
+        <div class="soal">
+            <label for="soal2">2. Bagaimana cara menjaga persahabatan dengan teman?</label>
+            <input type="text" id="soal2">
+            <button data-answer="Saling menghargai, membantu, dan tidak bermusuhan">Cek Jawaban</button>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Aplikasi Belajar SD</p>
-  </footer>
+        <div class="soal">
+            <label for="soal3">3. Mengapa penting bersikap santun kepada semua orang?</label>
+            <input type="text" id="soal3">
+            <button data-answer="Agar tercipta lingkungan yang harmonis dan damai">Cek Jawaban</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="budi-pekerti.html">Kembali ke Budi Pekerti</a>
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
